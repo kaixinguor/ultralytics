@@ -1,0 +1,31 @@
+
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: data/dacl10k_v2_devphase # dataset root dir
+train: images/train # train images (relative to 'path') 6935 images
+val: images/validation # val images (relative to 'path') 975 images
+test:
+
+# Classes
+names:
+  0: Crack
+  1: ACrack
+  2: Wetspot
+  3: Efflorescence
+  4: Rust
+  5: Rockpocket
+  6: Hollowareas
+  7: Cavity
+  8: Spalling
+  9: Graffiti
+  10: Weathering
+  11: Restformwork
+  12: ExposedRebars
+  13: Bearing
+  14: EJoint
+  15: Drainage
+  16: PEquipment
+  17: JTape
+  18: WConccor
+
+
